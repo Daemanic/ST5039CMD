@@ -20,6 +20,7 @@ Understanding the structure, working mechaninism, compilation and its stages in 
 > GCC Compilation Structure in C-Programming.
 
 ### [?] Reproducing Steps
+
 **Compilation:**
 
 ```bash
@@ -29,11 +30,12 @@ gcc -c compile.s -o compile.o
 gcc compile.o -o compile
 ```
 
-**Machine Code:**
+**Reading Machine Code:**
+
 ```bash
-cat compile.c
 cat compile.i
 cat compile.s
+cat compile.o
 ```
 
 ### [?] Project Structure
@@ -50,3 +52,8 @@ Lab1/
 ---
 
 ## [2] Lab-Task
+> Investigating Process Lifecycle and OS Interaction.
+
+### [?] Introduction
+
+Putting the OS processes and resources theory into practice, by writing code that interacts with the Linux kernel to query its own process identity, control its execution time, and report its success or failure back to the OS shell.
