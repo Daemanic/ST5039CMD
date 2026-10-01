@@ -64,7 +64,7 @@ Bridging the gap between high-level C code and low-level OS process management u
 
 ### [?] Reproducing Steps
 
-**Compilation**
+**Compilation:**
 
 ```bash
 gcc task_1.c -o task1
@@ -74,9 +74,9 @@ gcc task_4.c -o task4
 gcc task_5.c -o task5
 ```
 
-**Terminal Execution**
+**Terminal Execution:**
 
-```bash
+1. ```bash
 ./task1 &
 ps aux | grep task1
 ```
