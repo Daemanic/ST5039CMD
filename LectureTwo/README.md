@@ -77,7 +77,7 @@ Lab2/
 
 ---
 
-## [~] Status
+## [~] Status & Resources
 
 * Completion: 100%
 * Access Documentation: 
