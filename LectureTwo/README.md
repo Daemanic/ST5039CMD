@@ -5,7 +5,7 @@ Understanding the structure, working mechaninism, compilation and its stages in 
 
 ---
 
-## [?] Learning Objective
+## [~] Learning Objective
 
 * The basic structure of C program.
 * The main() function and return type.
@@ -19,7 +19,7 @@ Understanding the structure, working mechaninism, compilation and its stages in 
 ## [1] Lab-Task
 > GCC Compilation Structure in C-Programming.
 
-### Reproducing Steps
+### [?] Reproducing Steps
 **Compilation:**
 
 ```bash
@@ -29,14 +29,14 @@ gcc -c compile.s -o compile.o
 gcc compile.o -o compile
 ```
 
-**Reading File:**
+**Machine Code:**
 ```bash
 cat compile.c
 cat compile.i
 cat compile.s
 ```
 
-### Project Structure
+### [?] Project Structure
 
 ```
 Lab1/
