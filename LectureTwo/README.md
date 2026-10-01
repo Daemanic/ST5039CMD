@@ -76,31 +76,23 @@ gcc task_5.c -o task5
 
 **Terminal Execution:**
 
-1. ```bash
+```bash
 ./task1 &
 ps aux | grep task1
-```
 
-```bash
 ./task2 &
 ps -p <pid-shown> -o pid,ppid,cmd
-```
 
-```bash
 ./task3
 # enter [+ve integer]
 echo $?
 ./task3
 # enter [-ve integer]
 echo $?
-```
 
-```bash
 ./task4
 # enter [username]
-```
 
-```bash
 ./task5
 # enter [1]
 echo $?
@@ -108,7 +100,6 @@ echo $?
 # enter [0]
 echo $?
 ```
-
 
 ### [?] Project Structure
 
