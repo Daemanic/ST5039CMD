@@ -1,5 +1,6 @@
 # Lecture Two [Educational]
-> C-programming Basics / Integration and Process Concept
+> C-programming Basics / Integration and Process Concept.
+
 Understanding the structure, working mechaninism, compilation and its stages in C-language. Using main() function to view process layout, memory process layout and how file becomes an executable.
 
 ---
