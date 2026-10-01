@@ -56,4 +56,23 @@ Lab1/
 
 ### [?] Introduction
 
-Putting the OS processes and resources theory into practice, by writing code that interacts with the Linux kernel to query its own process identity, control its execution time, and report its success or failure back to the OS shell.
+Putting the OS processes and resources theory into practice by writing code that interacts with the Linux kernel to query its own process identity, control its execution time, and report its success or failure back to the OS shell.
+
+### [?] Objective
+
+Bridging the gap between high-level C code and low-level OS process management using system calls like `getpid()`, `sleep()`, and return codes. This lab also demonstrates that C programs are active processes managed by the Linux kernel.
+
+
+### [?] Project Structure
+
+```
+Lab2/
+│── task_1.c
+│── task1
+│── task_2.c
+│── task2
+│── task_3.c
+|── ...
+```
+
+---
