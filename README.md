@@ -1,2 +1,4 @@
-# ST5039CMD
-Programming and Operating Systems
+# ST5039CMD [Course]
+> Programming and Operating Systems.
+
+---
