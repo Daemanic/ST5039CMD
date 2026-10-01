@@ -1,7 +1,7 @@
 # [~] LECTURE TWO
 > C-programming Basics / Integration and Process Concepts
 
-## [?] LEARNING OBJECTIVEs
+### [?] Learning Objective
 ```
 1) The basic structure of C program.
 2) The main() function and return type.
@@ -11,6 +11,6 @@
 6) How OS loads and executes a program?
 ```
 
-## [1] LAB-TASKs
+### [1] Lab-Task
 
-## [2] LAB-TASKs
+### [2] Lab-Task
