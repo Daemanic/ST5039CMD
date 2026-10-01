@@ -2,14 +2,16 @@
 #include <unistd.h>
 
 int main() {
-    pid_t my_pid = getpid();
-    pid_t my_ppid = getppid();
+    int num;
+    printf("enter a number: ");
+    scanf("%d", &num);
 
-    printf("my pid: %d\n", my_pid);
-    printf("my parent pid: %d\n", my_ppid);
-
-    printf("~ sleeping for 20 seconds ~\n");
-    sleep(20);
-
+    if (num > 0) {
+        printf("success\n");
+        return 0;
+    } else {
+        printf("failure\n");
+        return 1;
+    }
     return 0;
 }
