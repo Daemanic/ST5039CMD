@@ -74,19 +74,18 @@ gcc task_4.c -o task4
 gcc task_5.c -o task5
 ```
 
-1.
+**Terminal Execution**
+
 ```bash
 ./task1 &
 ps aux | grep task1
 ```
 
-2.
 ```bash
 ./task2 &
 ps -p <pid-shown> -o pid,ppid,cmd
 ```
 
-3.
 ```bash
 ./task3
 # enter [+ve integer]
@@ -96,13 +95,11 @@ echo $?
 echo $?
 ```
 
-4.
 ```bash
 ./task4
 # enter [username]
 ```
 
-5.
 ```bash
 ./task5
 # enter [1]
