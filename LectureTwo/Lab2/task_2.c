@@ -5,7 +5,7 @@ int main() {
     pid_t my_pid = getpid();
     pid_t my_ppid = getppid();
 
-    printf("my pid: %d\n", my_pid);
+    printf("my pid:     %d\n", my_pid);
     printf("parent pid: %d\n", my_ppid);
 
     printf("~ sleeping for 20 seconds ~\n");
