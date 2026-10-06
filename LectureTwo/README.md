@@ -1,17 +1,28 @@
 # Lecture Two [Educational]
-> C-programming Basics / Integration and Process Concept.
+> C-Programming Basics / Compilation and Process Concepts
 
-Understanding the structure, working mechaninism, compilation and its stages in C-language. Using `main()` function to view process layout, memory process layout and how file becomes an executable.
+Understanding the structure and working mechanism of a C program — how it moves from source code to a running process — including the stages of compilation and how the operating system loads and manages that process once it's executing.
+
+---
+
+## [~] Learning Objectives
+
+* The basic structure of a C program.
+* The `main()` function and its return type.
+* The four stages of GCC compilation (preprocessing → compilation → assembly → linking).
+* Use of `GCC` flags to stop at and inspect each stage.
+* The distinction between a **program** (static file on disk) and a **process** (program in execution).
+* How the OS loads and executes a program, and assigns it a PID/PPID.
+* How system calls (`getpid()`, `getppid()`, `sleep()`) let a C program interact directly with the kernel.
+* How a process communicates success/failure back to the shell via its **exit code**.
 
 ---
 
-## [~] Learning Objective
+## [~] Labs in This Lecture
 
-* The basic structure of C program.
-* The `main()` function and return type.
-* Stages of compilation.
-* Use of `GCC` flags.
-* Understand distinction between a program and a process
-* How OS loads and executes a program?
-
----
+```
+| Lab | Focus |
+|---|---|
+| [Lab1](./Lab1) | Compiling a C file manually through each GCC stage, and inspecting the output at every step. |
+| [Lab2](./Lab2) | Writing programs that query their own PID/PPID, sleep, read input, and return different exit codes — observing them as live OS processes. |
+```
