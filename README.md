@@ -7,13 +7,12 @@
 
 This repository documents all lectures and lab work completed for **ST5039CMD – Programming and Operating Systems**, as part of the BSc (Hons) Ethical Hacking and Cybersecurity programme.
 
-```
 | | |
 |---|---|
 | **Course** | ST5039CMD — Programming and Operating Systems |
 | **Lecturer** | Rupak Rajbanshi |
 | **Purpose** | Archive of lecture notes, lab tasks, and source code for semester-end reference |
-```
+
 ---
 
 ## [~] Repository Structure
