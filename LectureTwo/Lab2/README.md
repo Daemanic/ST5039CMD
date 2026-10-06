@@ -13,7 +13,6 @@ Bridge the gap between high-level C code and low-level OS process management usi
 
 ## [?] Task Breakdown
 
-```
 | Task | File | What it demonstrates |
 |---|---|---|
 | 1 | `task_1.c` | A process that stays alive for 30 seconds (a visible, long-running process you can observe with `ps`). |
@@ -21,7 +20,6 @@ Bridge the gap between high-level C code and low-level OS process management usi
 | 3 | `task_3.c` | Returning different **exit codes** (`0` vs `1`) depending on input, read back via `echo $?`. |
 | 4 | `task_4.c` | Reading string input from the user with `scanf()`. |
 | 5 | `task_5.c` | Interactive branching: one path sleeps and exits `0`, the other exits `1` immediately. |
-```
 
 ---
 

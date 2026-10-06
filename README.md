@@ -5,6 +5,7 @@
 
 ## [~] About
 
+| | |
 |---|---|
 | **Course** | ST5039CMD — Programming and Operating Systems |
 | **Lecturer** | Rupak Rajbanshi |

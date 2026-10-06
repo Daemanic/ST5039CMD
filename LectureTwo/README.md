@@ -1,7 +1,7 @@
 # Lecture Two [Educational]
 > C-Programming Basics / Compilation and Process Concepts
 
-Understanding the structure and working mechanism of a C program — how it moves from source code to a running process — including the stages of compilation and how the operating system loads and manages that process once it's executing.
+Understanding the structure and working mechanism of a C program, how it moves from source code to a running process and including the stages of compilation and how the operating system loads and manages that process once it's executing.
 
 ---
 
@@ -20,9 +20,7 @@ Understanding the structure and working mechanism of a C program — how it move
 
 ## [~] Labs in This Lecture
 
-```
 | Lab | Focus |
 |---|---|
 | [Lab1](./Lab1) | Compiling a C file manually through each GCC stage, and inspecting the output at every step. |
 | [Lab2](./Lab2) | Writing programs that query their own PID/PPID, sleep, read input, and return different exit codes — observing them as live OS processes. |
-```
