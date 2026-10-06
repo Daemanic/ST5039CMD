@@ -7,7 +7,7 @@ Putting process and resource theory into practice by writing C programs that int
 
 ## [~] Objective
 
-Bridge the gap between high-level C code and low-level OS process management using system calls like `getpid()`, `sleep()`, and `scanf()`, and by observing return codes. This lab demonstrates that a running C program is an active **process** managed by the Linux kernel — not just a static file.
+Bridge the gap between high-level C code and low-level OS process management using system calls like `getpid()`, `sleep()`, and `scanf()`, and by observing return codes. This lab demonstrates that a running C program is an active process managed by the Linux kernel — not just a static file.
 
 ---
 
@@ -17,7 +17,7 @@ Bridge the gap between high-level C code and low-level OS process management usi
 |---|---|---|
 | 1 | `task_1.c` | A process that stays alive for 30 seconds (a visible, long-running process you can observe with `ps`). |
 | 2 | `task_2.c` | Reading a process's own PID and its parent's PID (PPID) via `getpid()` / `getppid()`. |
-| 3 | `task_3.c` | Returning different **exit codes** (`0` vs `1`) depending on input, read back via `echo $?`. |
+| 3 | `task_3.c` | Returning different exit codes (`0` vs `1`) depending on input, read back via `echo $?`. |
 | 4 | `task_4.c` | Reading string input from the user with `scanf()`. |
 | 5 | `task_5.c` | Interactive branching: one path sleeps and exits `0`, the other exits `1` immediately. |
 
@@ -57,7 +57,7 @@ echo $?
 echo $?
 ```
 
-**Task 4 — reading a name:**
+**Task 4 — reading username:**
 ```bash
 ./task4
 # enter a username

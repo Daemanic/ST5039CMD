@@ -5,11 +5,10 @@
 
 ## [~] About
 
-| | |
+| Course | ST5039CMD - Programming and Operating Systems |
 |---|---|
-| **Course** | ST5039CMD — Programming and Operating Systems |
-| **Lecturer** | Rupak Rajbanshi |
-| **Purpose** | Archive of lecture notes, lab tasks, and source code for semester-end reference |
+| Lecturer | Rupak Rajbanshi |
+| Purpose | Archive of lecture notes, lab tasks, and source code for semester-end reference |
 
 ---
 
@@ -18,15 +17,13 @@
 ```
 ST5039CMD/
 │── LectureTwo/
-│
 │ │── Lab1/ → GCC compilation stages
 │ │── Lab2/ → Process lifecycle & OS interaction
 │ └── README.md → Lecture overview
-│
 └── README.md → You are here
 ```
 
-Each `Lecture<N>` folder contains its own `README.md` explaining that lecture's learning objectives, and each `Lab` subfolder contains a `README.md` with the steps to reproduce that lab's results.
+Each lecture folder contains its own `README.md` explaining that lecture's learning objectives, and each lab subfolder contains a `README.md` with the steps to reproduce that lab's results.
 
 ---
 

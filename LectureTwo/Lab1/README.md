@@ -7,10 +7,10 @@ Break the normally single-command `gcc compile.c -o compile` process into its fo
 
 | Stage | Command | Output | What it is |
 |---|---|---|---|
-| 1. Preprocessing | `gcc -E compile.c -o compile.i` | `compile.i` | Source with macros expanded, headers included, comments stripped |
-| 2. Compilation | `gcc -S compile.i -o compile.s` | `compile.s` | Human-readable assembly code |
-| 3. Assembly | `gcc -c compile.s -o compile.o` | `compile.o` | Machine code in object-file format (not yet linked) |
-| 4. Linking | `gcc compile.o -o compile` | `compile` | Final, runnable executable |
+| Preprocessing | `gcc -E compile.c -o compile.i` | `compile.i` | Source with macros expanded, headers included, comments stripped |
+| Compilation | `gcc -S compile.i -o compile.s` | `compile.s` | Human-readable assembly code |
+| Assembly | `gcc -c compile.s -o compile.o` | `compile.o` | Machine code in object-file format |
+| Linking | `gcc compile.o -o compile` | `compile` | Final, runnable executable |
 
 ---
 
