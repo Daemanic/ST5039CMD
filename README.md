@@ -5,9 +5,6 @@
 
 ## [~] About
 
-This repository documents all lectures and lab work completed for **ST5039CMD – Programming and Operating Systems**, as part of the BSc (Hons) Ethical Hacking and Cybersecurity programme.
-
-| | |
 |---|---|
 | **Course** | ST5039CMD — Programming and Operating Systems |
 | **Lecturer** | Rupak Rajbanshi |
@@ -20,11 +17,11 @@ This repository documents all lectures and lab work completed for **ST5039CMD �
 ```
 ST5039CMD/
 │── LectureTwo/
+│
 │ │── Lab1/ → GCC compilation stages
 │ │── Lab2/ → Process lifecycle & OS interaction
 │ └── README.md → Lecture overview
-│── LectureThree/ (added as the course progresses)
-│── LectureFour/ (added as the course progresses)
+│
 └── README.md → You are here
 ```
 
