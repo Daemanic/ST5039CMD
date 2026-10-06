@@ -43,7 +43,7 @@ ps aux | grep task1
 **Task 2 — PID / PPID:**
 ```bash
 ./task2 &
-ps -p <pid-shown> -o pid,ppid,comm   # use 'comm' on macOS, 'cmd' on Linux
+ps -p <pid-shown> -o pid,ppid,cmd
 ```
 
 **Task 3 — exit code from input sign:**
