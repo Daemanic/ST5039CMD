@@ -5,7 +5,9 @@
 
 ## [~] Learning Objectives
 
-* The basic structure of a C program.
+* Primary data types in C program.
+* Understanding OS Memory Segments and Purposes (stack, heap, data, bss, text).
+* Importance of Process Memory Layout works (isolation → protection → efficienty).
 
 ---
 

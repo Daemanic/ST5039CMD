@@ -11,10 +11,10 @@ Understanding the structure and working mechanism of a C program, how it moves f
 * The `main()` function and its return type.
 * The four stages of GCC compilation (preprocessing → compilation → assembly → linking).
 * Use of `GCC` flags to stop at and inspect each stage.
-* The distinction between a **program** (static file on disk) and a **process** (program in execution).
+* The distinction between a program (static file on disk) and a process (program in execution).
 * How the OS loads and executes a program, and assigns it a PID/PPID.
 * How system calls (`getpid()`, `getppid()`, `sleep()`) let a C program interact directly with the kernel.
-* How a process communicates success/failure back to the shell via its **exit code**.
+* How a process communicates success/failure back to the shell via its exit code.
 
 ---
 
