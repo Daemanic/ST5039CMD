@@ -20,6 +20,11 @@ ST5039CMD/
 │ │── Lab1/ → GCC compilation stages
 │ │── Lab2/ → Process lifecycle & OS interaction
 │ └── README.md → Lecture overview
+│
+│── LectureThree/
+│ │── Lab1/ → Data Types and OS Memory Management
+│ └── README.md → Lecture overview
+│
 └── README.md → You are here
 ```
 
