@@ -22,10 +22,10 @@ ST5039CMD/
 │ └── README.md → Lecture overview
 │
 │── LectureThree/
-│ │── Lab1/ → Data Types and OS Memory Management
+│ │── Lab1/ → Understanding System Internals
 │ └── README.md → Lecture overview
 │
-└── README.md → You are here
+└── README.md → Course overview
 ```
 
 Each lecture folder contains its own `README.md` explaining that lecture's learning objectives, and each lab subfolder contains a `README.md` with the steps to reproduce that lab's results.
