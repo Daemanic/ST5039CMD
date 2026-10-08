@@ -34,5 +34,5 @@ Each lecture folder contains its own `README.md` explaining that lecture's learn
 
 ## [~] How to Navigate
 
-* Start at a lecture's `README.md` for the **concept** being taught.
-* Open the corresponding `Lab` folder's `README.md` for the **hands-on steps** and code.
+* Start at a lecture's `README.md` for the concept being taught.
+* Open the corresponding `Lab` folder's `README.md` for the hands-on steps and code.
