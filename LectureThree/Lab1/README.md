@@ -7,16 +7,31 @@ Demonstration on how data type sizes vary across different system architecutes â
 
 ---
 
-## [?] Compilation
+## [?] Task Breakdown
 
+| File | Binary | What it demonstrates |
+|---|---|---|
+| bytesize.c | bytesizse | The size in bytes of each data type on the current architecture. |
+| allocation.c | allocation | Pointers and memory allocation. |
+| variable_addr.c | address | The addresses of different variables, showing which segment each one belongs to. |
+
+---
+
+## [?] Reproducing Steps
+
+**Compilation and execution:**
 ```bash
 gcc allocation.c -o allocation
 ./allocation
+
 gcc bytesize.c -o bytesize
 ./bytesize
+
 gcc variable_addr.c -o address
 ./address
 ```
+
+> **Note:** address change between runs because of `address space layout randomization`. compare the relative positions of stack, heap and data/bss rather than exact values. type sizes can also differ between operating systems and architectures.
 
 ---
 

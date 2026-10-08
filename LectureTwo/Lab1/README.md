@@ -5,6 +5,10 @@
 
 Break the normally single-command `gcc compile.c -o compile` process into its four individual stages, to see exactly what the compiler produces at each step before it becomes a final executable.
 
+---
+
+## [?] Stage Breakdown
+
 | Stage | Command | Output | What it is |
 |---|---|---|---|
 | Preprocessing | `gcc -E compile.c -o compile.i` | `compile.i` | Source with macros expanded, headers included, comments stripped |
