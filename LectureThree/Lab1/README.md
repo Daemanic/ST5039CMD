@@ -24,8 +24,8 @@ Demonstration on how data type sizes vary across different system architecutes â
 gcc allocation.c -o allocation
 ./allocation
 
-gcc bytesize.c -o bytesize
-./bytesize
+gcc bytesize.c -o bytesizes
+./bytesizes
 
 gcc variable_addr.c -o address
 ./address
