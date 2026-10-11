@@ -19,11 +19,10 @@ ST5039CMD/
 │── LectureTwo/
 │ │── Lab1/         → GCC compilation stages
 │ │── Lab2/         → Process lifecycle & OS interaction
-│ └── README.md     → Lecture overview
 │
 │── LectureThree/
 │ │── Lab1/         → Understanding System Internals
-│ └── README.md     → Lecture overview
+│ │── Lab2/         → Observing Process Memory Layout
 │
 └── README.md       → Course overview
 ```
