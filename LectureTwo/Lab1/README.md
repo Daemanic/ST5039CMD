@@ -46,10 +46,10 @@ cat compile.o    # object file (binary — expect unreadable output)
 
 ```
 Lab1/
-│── compile       ← final executable (stage 4)
-│── compile.c     ← original source code
-│── compile.i     ← preprocessed source (stage 1)
-│── compile.o     ← object file (stage 3)
-│── compile.s     ← assembly code (stage 2)
+│── compile         ← final executable (stage 4)
+│── compile.c       ← original source code
+│── compile.i       ← preprocessed source (stage 1)
+│── compile.o       ← object file (stage 3)
+│── compile.s       ← assembly code (stage 2)
 └── README.md
 ```

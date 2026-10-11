@@ -39,11 +39,8 @@ gcc variable_addr.c -o address
 
 ```
 Lab1/
-│── allocation.c        ← pointer and memory allocation
-│── ./allocate
-│── bytesize.c          ← observing data type sizes
-│── ./bytesizes
-│── variable_addr.c     ← observing variable addresses
-│── ./address
+│── allocation.c        │── ./allocate
+│── bytesize.c          │── ./bytesizes
+│── variable_addr.c     │── ./address
 └── README.md
 ```

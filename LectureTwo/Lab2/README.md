@@ -82,10 +82,10 @@ echo $?
 
 ```
 Lab2/
-│── task_1.c   │── task1
-│── task_2.c   │── task2
-│── task_3.c   │── task3
-│── task_4.c   │── task4
-│── task_5.c   │── task5
+│── task_1.c    │── ./task1
+│── task_2.c    │── ./task2
+│── task_3.c    │── ./task3
+│── task_4.c    │── ./task4
+│── task_5.c    │── ./task5
 └── README.md
 ```

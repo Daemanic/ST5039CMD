@@ -58,7 +58,6 @@ stack - heap = 1717112984 bytes (0x66591098)
 
 ```
 Lab1/
-│── addr_map.c        ← memory segment address mapping
-│── ./mapping
+│── addr_map.c      │── ./mapping
 └── README.md
 ```
